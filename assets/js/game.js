@@ -22,7 +22,7 @@ var fight = function() {
    console.log(
        playerName + "attacked" + enemyName + ". " + enemyName + "now has" + enemyHealth + "health remaining."
    );
-    }  
+     
 //check enemy's health
 if (enemyHealth <= 0) {
     window.alert( enemyName  +  "has  died!" );
@@ -49,4 +49,4 @@ if (playerHealth <= 0) {
   window.alert("You need to choose a valid option. Try again!");
 }
 fight();
-
+}
